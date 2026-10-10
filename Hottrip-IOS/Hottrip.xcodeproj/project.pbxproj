@@ -1,0 +1,466 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		050D1442845E40791DFB135C /* HottripUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44CF826BE7DC758C09F8D340 /* HottripUITests.swift */; };
+		7C40ABDE5D8F762DCAEF878F /* HottripApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FF2DABA3FC9CD094ADD5A10 /* HottripApp.swift */; };
+		81EF684C3FDC30CAB3FF4B6B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 21F1C5EE7E6285A6BDC66491 /* Assets.xcassets */; };
+		F2232D0B2E95DB68145F6EDF /* HottripUI in Frameworks */ = {isa = PBXBuildFile; productRef = B10109F555E0E1FFD264BF78 /* HottripUI */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B48CE42833B74C30EB2CF456 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BAC0AF9050FE5E0687F25862 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3312A0DFD03EADF48D8E22C4;
+			remoteInfo = Hottrip;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		21F1C5EE7E6285A6BDC66491 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		368E8FABF4788799BF2E7A2F /* HottripUITests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = HottripUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		44CF826BE7DC758C09F8D340 /* HottripUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HottripUITests.swift; sourceTree = "<group>"; };
+		5C57D1C414271F70F990CDA5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		8CAD1CA40853E93AC4840BAC /* Hottrip-IOS */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "Hottrip-IOS"; path = .; sourceTree = SOURCE_ROOT; };
+		9FF2DABA3FC9CD094ADD5A10 /* HottripApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HottripApp.swift; sourceTree = "<group>"; };
+		C474C80E38081520466C495F /* Hottrip.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = Hottrip.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1760BE983128B350357A44F3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2232D0B2E95DB68145F6EDF /* HottripUI in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3C489A075E74811D29BF356A /* HottripUITests */ = {
+			isa = PBXGroup;
+			children = (
+				44CF826BE7DC758C09F8D340 /* HottripUITests.swift */,
+			);
+			path = HottripUITests;
+			sourceTree = "<group>";
+		};
+		4853819F4CF38FA58660A644 = {
+			isa = PBXGroup;
+			children = (
+				774BD4B12642E2FAC74B0CE9 /* App */,
+				3C489A075E74811D29BF356A /* HottripUITests */,
+				C164D260864F5E5CB6DB87BF /* Packages */,
+				D99D8B348D363DA69C2B5DBF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		774BD4B12642E2FAC74B0CE9 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				21F1C5EE7E6285A6BDC66491 /* Assets.xcassets */,
+				9FF2DABA3FC9CD094ADD5A10 /* HottripApp.swift */,
+				5C57D1C414271F70F990CDA5 /* Info.plist */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		C164D260864F5E5CB6DB87BF /* Packages */ = {
+			isa = PBXGroup;
+			children = (
+				8CAD1CA40853E93AC4840BAC /* Hottrip-IOS */,
+			);
+			name = Packages;
+			sourceTree = "<group>";
+		};
+		D99D8B348D363DA69C2B5DBF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C474C80E38081520466C495F /* Hottrip.app */,
+				368E8FABF4788799BF2E7A2F /* HottripUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3312A0DFD03EADF48D8E22C4 /* Hottrip */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9D978F049EDCEF4C1665364B /* Build configuration list for PBXNativeTarget "Hottrip" */;
+			buildPhases = (
+				BD6AADDF135CDFC8E1198AD6 /* Sources */,
+				053D94B4D966467629B40D05 /* Resources */,
+				1760BE983128B350357A44F3 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Hottrip;
+			packageProductDependencies = (
+				B10109F555E0E1FFD264BF78 /* HottripUI */,
+			);
+			productName = Hottrip;
+			productReference = C474C80E38081520466C495F /* Hottrip.app */;
+			productType = "com.apple.product-type.application";
+		};
+		384BE2C0A6EBFE1C9BF5BDE3 /* HottripUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9ECD146E6CB512701B0C7EE0 /* Build configuration list for PBXNativeTarget "HottripUITests" */;
+			buildPhases = (
+				4C22324A4D2160AB374D0AD9 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B844C1A7BF84C6655DF42633 /* PBXTargetDependency */,
+			);
+			name = HottripUITests;
+			packageProductDependencies = (
+			);
+			productName = HottripUITests;
+			productReference = 368E8FABF4788799BF2E7A2F /* HottripUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BAC0AF9050FE5E0687F25862 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					3312A0DFD03EADF48D8E22C4 = {
+						DevelopmentTeam = "";
+						ProvisioningStyle = Automatic;
+					};
+					384BE2C0A6EBFE1C9BF5BDE3 = {
+						DevelopmentTeam = "";
+						ProvisioningStyle = Automatic;
+						TestTargetID = 3312A0DFD03EADF48D8E22C4;
+					};
+				};
+			};
+			buildConfigurationList = 681E664E4FDD2D7F4A40CF29 /* Build configuration list for PBXProject "Hottrip" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 4853819F4CF38FA58660A644;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				6A58D12D0E7E1CF0946A238D /* XCLocalSwiftPackageReference "." */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = D99D8B348D363DA69C2B5DBF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3312A0DFD03EADF48D8E22C4 /* Hottrip */,
+				384BE2C0A6EBFE1C9BF5BDE3 /* HottripUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		053D94B4D966467629B40D05 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81EF684C3FDC30CAB3FF4B6B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4C22324A4D2160AB374D0AD9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				050D1442845E40791DFB135C /* HottripUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD6AADDF135CDFC8E1198AD6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7C40ABDE5D8F762DCAEF878F /* HottripApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B844C1A7BF84C6655DF42633 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3312A0DFD03EADF48D8E22C4 /* Hottrip */;
+			targetProxy = B48CE42833B74C30EB2CF456 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0D08C148B6BEFEE64B02BFD0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = uz.hottrip.demo.uitests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 1;
+				TEST_TARGET_NAME = Hottrip;
+			};
+			name = Debug;
+		};
+		2F2B0056FE9B81A5620401F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = App/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = uz.hottrip.demo;
+				SDKROOT = iphoneos;
+				SUPPORTS_MACCATALYST = NO;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		3544BF1E189D407258434E87 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = App/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = uz.hottrip.demo;
+				SDKROOT = iphoneos;
+				SUPPORTS_MACCATALYST = NO;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		44C326B2D9399DD316EB4FC6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 0.1.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		9368DC49FA98A33BC3B94AF9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 0.1.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		D5B8F3B862AD5283B174968F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = uz.hottrip.demo.uitests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 1;
+				TEST_TARGET_NAME = Hottrip;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		681E664E4FDD2D7F4A40CF29 /* Build configuration list for PBXProject "Hottrip" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9368DC49FA98A33BC3B94AF9 /* Debug */,
+				44C326B2D9399DD316EB4FC6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		9D978F049EDCEF4C1665364B /* Build configuration list for PBXNativeTarget "Hottrip" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F2B0056FE9B81A5620401F0 /* Debug */,
+				3544BF1E189D407258434E87 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		9ECD146E6CB512701B0C7EE0 /* Build configuration list for PBXNativeTarget "HottripUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0D08C148B6BEFEE64B02BFD0 /* Debug */,
+				D5B8F3B862AD5283B174968F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCLocalSwiftPackageReference section */
+		6A58D12D0E7E1CF0946A238D /* XCLocalSwiftPackageReference "." */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = .;
+		};
+/* End XCLocalSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		B10109F555E0E1FFD264BF78 /* HottripUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = HottripUI;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = BAC0AF9050FE5E0687F25862 /* Project object */;
+}
